@@ -1,0 +1,18 @@
+*, ::before, ::after {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+
+  .header{
+      height: 40px;
+  }
+
+  .content{
+      height: calc(100vh - 80px);
+      min-height: 400px;
+  }
+
+  .footer{
+      height: 40px;
+  }
