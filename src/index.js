@@ -54,3 +54,5 @@ const loadingScreen = () => {
     temperature.textContent = '-';
     units.textContent = '-';
 }
+
+getWeather('London');
