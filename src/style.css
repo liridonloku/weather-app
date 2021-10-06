@@ -4,13 +4,83 @@
     box-sizing: border-box;
   }
 
+  body{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color:rgb(107, 162, 207);
+  }
+
   .header{
+      font-size: 32px;
       height: 40px;
   }
 
-  .content{
+  .main{
       height: calc(100vh - 80px);
-      min-height: 400px;
+      min-height: 150px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+
+  .form{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+  }
+
+  .card{
+      width: 400px;
+      height: 100px;
+      display: flex;
+  }
+
+  .city-name{
+      height: 100%;
+      width: 300px;
+      font-size: 24px;
+      display: flex;
+      align-items: center;
+  }
+
+  .weather-info{
+      width: 100px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+  }
+
+  .weather-icon{
+      height: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .weather-icon>img{
+      max-width: 100%;
+      max-height: 100%;
+  }
+
+  .temperature{
+      height: 50%;
+      display: flex;
+  }
+
+  .temp-value{
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .units{
+      cursor: pointer;
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
   }
 
   .footer{
